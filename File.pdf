@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Forms</title>
+</head>
+<body>
+   <h1>Registration Form</h1>
+   <form>
+       <label>Username:</label>
+       <input type = "text" placeholder = "Username" required>
+       <br><br>
+       <label>Email:</label>
+       <input type="text">
+       <br><br>
+       <label>Password:</label>
+       <input type="text">
+       <br><br>
+       <label>Age:</label>
+       <input type="number">
+       <br><br>
+       <label>Gender:</label>
+       <input type="radio"value = "male">
+       <label>Male</label>
+       <input type="radio"value = "female">
+       <label>Female</label>
+       <br><br>
+       <input type ="check box">
+       <label>Remember me</label>
+       <br><br>
+       <label>Country:</label>
+       <select>
+           <option>None</option>
+           <option>USA</option>
+           <option>UK</option>
+           <option>India</option>
+       </select>
+       <br><br>
+       <textarea></textarea>
+       <br><br>
+       <label>City:</label>
+       <input type="text" id="city" list="citylist">
+       <br>
+       <datalist id ="citylist">
+           <option> "Newyork" </option>
+           <option> "Los Angeles" </option>
+           <option> "Chennai" </option>
+           <option> "Coimbatore" </option>
+       </datalist>
+       <br><br>
+       <input type ="file">
+       <br><br>
+       <<input type="reset" value = "Exit">
+       <input type="reset""button"value ="submit">
+      
+       <input type= "reset""cancle" value ="cancle">
+   </form>
+       
+</body>
+</html>
